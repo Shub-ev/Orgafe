@@ -1,0 +1,48 @@
+.basket-img {
+    background-image: url(../img/fruit-basket.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: moveUpDown 2.5s infinite;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-14px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.cherry {
+    background-image: url(../img/cherry.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.basket-button{
+    background-color: #86ba09;
+}
+.pear{
+    background-image: url(../img/pear.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: move-pear 5s infinite;
+}
+@keyframes move-pear {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

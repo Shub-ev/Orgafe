@@ -1,0 +1,13 @@
+/* StarRating.css */
+.star-rating {
+  display: inline-block;
+}
+
+.star {
+  color: gold;
+  cursor: pointer;
+  background-color: orange; /* Set the orange background color */
+  border: 1px solid orange; /* Set the orange border */
+  padding: 2px;
+  margin: 0 2px;
+}

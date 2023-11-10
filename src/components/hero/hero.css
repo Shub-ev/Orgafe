@@ -1,0 +1,48 @@
+.out-cir{
+    height: 120px;
+    width: 120px;
+    background-color: #d4d9bb;
+}
+.in-cir{
+    height: 90px;
+    width: 90px;
+}
+.play-icon{
+    color: white;
+}
+
+.play-cir-off, .hero-title-anime-off, .hero-subTitle-anime-off{
+    opacity: 0;
+}
+.play-cir-on, .hero-title-anime-on, .hero-subTitle-anime-on{
+    animation: hero-anime 2s ease forwards;
+}
+@keyframes hero-anime{
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.berry{
+    background-image: url(../img/berry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pinaaple{
+    background-image: url(../img/pinaapple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: 40rem;
+}
+.hero-title{
+    width: 44rem;
+    line-height: 5rem;
+}

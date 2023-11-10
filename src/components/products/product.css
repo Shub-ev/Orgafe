@@ -1,0 +1,37 @@
+.tomato, .melon-img, .berry-img, .orange-img, .strberry-img, .lemon-img, .mango-img, .papaya-img, .apple-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.product-img{
+    width: 11em;
+    height: 11em;
+}
+
+.tomato{
+    background-image: url(../img/tomato.webp);
+}
+.melon-img{
+    background-image: url(../img/wmelon.webp);
+}
+.berry-img{
+    background-image: url(../img/berry.png);
+}
+.orange-img{
+    background-image: url(../img/orange.png);
+}
+.strberry-img{
+    background-image: url(../img/strawberry.png);
+}
+.lemon-img{
+    background-image: url(../img/lemon.png);
+}
+.mango-img{
+    background-image: url(../img/mango.png);
+}
+.papaya-img{
+    background-image: url(../img/papaya.png);
+}
+.apple-img{
+    background-image: url(../img/green-apple.png);
+}

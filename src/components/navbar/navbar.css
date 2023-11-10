@@ -1,0 +1,52 @@
+.navbar-lg{
+    width: 80%;
+    border-bottom: 0.5px solid rgb(206, 206, 206);
+}
+.user {
+    background-image: url(../img/user.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropMenu{
+    background-image: url(../img/drop-menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-but{
+    transition: background-color 0.3s ease-in-out;
+}
+.nav-but:hover{
+    background-color: #86ba09;
+}
+
+.logo{
+    background-image: url(../img/logo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drop-menu-button, .drop-menu-close{
+    background-image: url(../img/drop-menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+
+.drop-menu-close{
+    background-image: url(../img/cross.png);
+}
+
+.drop-menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.7s ease-in-out;
+    z-index: 998;
+}
+
+.drop-menu.active{
+    height: 260px;
+}

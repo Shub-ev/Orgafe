@@ -1,0 +1,30 @@
+.img1-food, .img2-arrowDown, .img2-arrowUp, .img1-team ,.img1-FORMALIN, .img1-testy, .leaf, .oldleaf{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img1-food{
+    background-image: url(../img/features-food.webp);
+}
+.img1-FORMALIN{
+    background-image: url(../img/features-formalin.webp);
+}
+.img1-testy{
+    background-image: url(../img/features-testy.webp);
+}
+.img1-team{
+    background-image: url(../img/features-team.webp);
+}
+.img2-arrowDown{
+    background-image: url(../img/arrow-down.webp);
+}
+.img2-arrowUp{
+    background-image: url(../img/arrow-up.webp);
+}
+
+.leaf{
+    background-image: url(../img/leaf.png);
+}
+.oldleaf{
+    background-image: url(../img/leafold.png);
+}
